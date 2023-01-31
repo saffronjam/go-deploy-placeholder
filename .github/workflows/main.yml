@@ -15,10 +15,10 @@ jobs:
       uses: docker/login-action@v2
       with:
         registry: registry.cloud.cbh.kth.se
-        username: robot$deploy-emils-deployment+emils-deployment
-        password: Kaqux29h4cYbrI3uZohvCUrfqpmVk3DS
+        username: robot$deploy-hello+hello
+        password: KfCVwEakIoDwT6hrbHJfLd8i7N8jQRay
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: registry.cloud.cbh.kth.se/deploy-emils-deployment/emils-deployment
+        tags: registry.cloud.cbh.kth.se/deploy-hello/hello
