@@ -13,7 +13,7 @@ jobs:
       with:
         registry: registry.cloud.cbh.kth.se
         username: robot$deploy-0819b9b6-e000-4a62-87c0-bc0a095a3c28+local-test-2
-        password: FceC7lfhaLjnFDpqojEUfp2yiqLaglya
+        password: F6evD3vQgw9uwk7pVQurkNvii9IePYNb
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
